@@ -24,7 +24,7 @@ Ubuntu 16.04 사용법
 
 
 # 2. 기능별 설명
-   2-2  네트워크 인터페이스 설정
+   #### 2-2  네트워크 인터페이스 설정
    > 먼저 컴퓨터에서 인터페이스 카드(랜카드)를 설치해야 합니다. 이후 네트워크 환경에 맞게 설정을 해야 하는데 이 때 설정해야 할 것은 IP주소, 게이트웨이 주소 등이 있습니다. 설정은 다음과 같이 진행됩니다.
 
 ###### ① 현재 네트워크 설정 확인하기
@@ -50,6 +50,27 @@ network<네트워크 주소>
 dns-nameservers<DNS 서버 주소>
 
  입력이 끝났으면, 파일을 저장하고 편집을 마칩니다. 이 후 컴퓨터를 부팅할 때마다 자동으로 위의 내용이 설정됩니다.
+
+#### 2-3 unity 런처 이동
+이전 버전의 우분투에는 unity 런처가 좌측으로 고정되어 있었던 반면, 16.04 버전에서는 unity런처를 하단으로 이동시킬 수 있습니다.
+ * 리눅스 명령을 선호하는 사용자는 터미널에서 다음 명령어를 실행합니다.
+ 하단으로 이동
+ gsettings set com.canonical.Unity.Launcher launcher-position Bottom
+좌측으로 이동
+ gsettings set com.canonical.Unity.Launcher launcher-position Left
+
+ * 그래픽 방식을 이용하는 사용자는 다음을 수행합니다.
+① Launcher 에서  Gnome Software를 시작
+② dconf 편집기를 검색, 설치
+③ 설치 후 dconf 편집기를 실행하고 "com -> canonical -> unity -> launcher"로 이동
+④ "Launcher-position"값을 변경하여 Unity Launcher 위치를 선택
+
+5.참고
+https://blog.naver.com/gnsinfo/220703762903
+http://blog.naver.com/brown_brown0406/220682146313
+https://gist.github.com/ihoneymon/652be052a0727ad59601
+http://goproprada.tistory.com/283
+http://ubuntuhandbook.org/index.php/2016/03/ubuntu-16-04-move-unity-launcher-to-bottom/
  
         
 
@@ -68,6 +89,10 @@ dns-nameservers<DNS 서버 주소>
    [df1]: <http://daringfireball.net/projects/markdown/>
    [markdown-it]: <https://github.com/markdown-it/markdown-it>
    [Ace Editor]: <http://ace.ajax.org>
+Markdown
+Toggle Zen Mode
+Preview
+
    [node.js]: <http://nodejs.org>
    [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
    [jQuery]: <http://jquery.com>
