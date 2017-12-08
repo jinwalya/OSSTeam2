@@ -61,15 +61,25 @@ ifconfig 명령을 입력하면 IP 주소가 변경된 것을 알 수 있습니�
   * $sudo vi/etc/network/interfaces
 ###### ⑤  기존 내용 삭제 및  새로운 내용 추가
  * 주석 삽입
+ 
  auto<인터페이스 이름>
+
 iface<인터페이스 이름><프로토콜><연결타입>
+
  * 추가 내용
+ 
  address<IP주소>
+
 netmask<넷마스크>
+
 broadcast<브로드캐스트 주소>
+
 gateway<게이트웨이 주소>
+
 network<네트워크 주소>
+
 dns-nameservers<DNS 서버 주소>
+
 
  입력이 끝났으면, 파일을 저장하고 편집을 마칩니다. 이 후 컴퓨터를 부팅할 때마다 자동으로 위의 내용이 설정됩니다.
 
@@ -87,10 +97,15 @@ dns-nameservers<DNS 서버 주소>
  
 
  * 그래픽 방식을 이용하는 사용자는 다음을 수행합니다.
+ 
 ① Launcher 에서  Gnome Software를 시작
+
 ② dconf 편집기를 검색, 설치
+
 ③ 설치 후 dconf 편집기를 실행하고 "com -> canonical -> unity -> launcher"로 이동
+
 ④ "Launcher-position"값을 변경하여 Unity Launcher 위치를 선택
+
 
  
 
@@ -123,12 +138,19 @@ dns-nameservers<DNS 서버 주소>
 엄의진 :
 # 5. 참고
 https://blog.naver.com/gnsinfo/220703762903
+
 http://blog.naver.com/brown_brown0406/220682146313
+
 https://gist.github.com/ihoneymon/652be052a0727ad59601
+
 http://goproprada.tistory.com/283
+
 http://ubuntuhandbook.org/index.php/2016/03/ubuntu-16-04-move-unity-launcher-to-bottom/
+
 [우분투]apt-get 패키지 관리|작성자 블링블링
+
 http://codingcoding.tistory.com/125
+
 
 
  
