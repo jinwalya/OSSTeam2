@@ -76,10 +76,15 @@ dns-nameservers<DNS 서버 주소>
 #### 2.3. unity 런처 이동
 이전 버전의 우분투에는 unity 런처가 좌측으로 고정되어 있었던 반면, 16.04 버전에서는 unity런처를 하단으로 이동시킬 수 있습니다.
  * 리눅스 명령을 선호하는 사용자는 터미널에서 다음 명령어를 실행합니다.
+ 
  하단으로 이동
+
  gsettings set com.canonical.Unity.Launcher launcher-position Bottom
+ 
 좌측으로 이동
+
  gsettings set com.canonical.Unity.Launcher launcher-position Left
+ 
 
  * 그래픽 방식을 이용하는 사용자는 다음을 수행합니다.
 ① Launcher 에서  Gnome Software를 시작
