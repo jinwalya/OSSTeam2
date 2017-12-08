@@ -106,6 +106,8 @@ dns-nameservers<DNS 서버 주소>
 * 우분투에서는 윈도우의 한글이나 Microsoft Office처럼 자체적 문서파일인 Libre를 사용합니다. 기존에 주로 쓰는 Office와 비슷하여 무리없이 사용할 수 있고, 오픈소스여서 무료로 다른  OS에서도 쉬운 사용이 가능합니다.
 
 # 3. 불편사항 및 개선
+###### 워드프로세서 기능
+윈도우에서 사용하는 MS워드와 리눅스 우분투에서 사용하는 리브레오피스 라이터를 비교해 본 결과, 리브레오피스 라이터는 MS워드와 달리 그림 스타일과 추가 효과가 없고 문서의 확장 읽기 모드나 문서의 동시 편집기능을 지원하지 않는다. 하지만 다행스럽게도 몇몇 부분들은 개발 단계에 있다. 문서 동시 편집 기능 같은 경우, MS워드는 OneDrive나 Sharepoint를 이용하는데 이들은 MSOffice에서 지원하고 있다. 결국 이 말은 오피스 자체에서 OneDrive와 Sharepoint와 같은 프로그램을 지원해주지 않으면 워드프로세서에서 문서 동시 편집을 할 수 없다는 뜻이다. 따라서 리브레오피스에서 먼저 위와 같은 프로그램을 개발한 후 리브레오피스 라이터에 적용시켜야 할 것이다.
 
 # 4. 소감
 엄의진 :
@@ -119,6 +121,7 @@ http://goproprada.tistory.com/283
 http://ubuntuhandbook.org/index.php/2016/03/ubuntu-16-04-move-unity-launcher-to-bottom/
 [우분투]apt-get 패키지 관리|작성자 블링블링
 http://codingcoding.tistory.com/125
+https://wiki.documentfoundation.org/Feature_Comparison:_LibreOffice_-_Microsoft_Office/ko
 
 
  
