@@ -33,7 +33,7 @@ Ubuntu 16.04 사용법
         * sudo apt remove <package> : <package>를 삭제한다. 의존성 문제를 자동으로 해결하면서 삭제하므로 매우 유용하다.
 
 * Libre office
-
+    * 우분투에서는 윈도우의 한글이나 Microsoft Office처럼 자체적 문서파일인 Libre를 사용합니다. 기존에 주로 쓰는 Office와 비슷하여 무리없이 사용할 수 있고, 오픈소스여서 무료로 다른  OS에서도 쉬운 사용이 가능합니다.
 
 # 3. 불편사항 및 개선
 
@@ -41,6 +41,7 @@ Ubuntu 16.04 사용법
 
 # 5. 참고
 [출처] [우분투]apt-get 패키지 관리|작성자 블링블링
+[출처] http://codingcoding.tistory.com/125
 
 
 
